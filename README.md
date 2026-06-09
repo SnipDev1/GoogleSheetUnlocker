@@ -27,7 +27,10 @@
 3. **Нажмите на загрузить распакованный (Load unpacked)** - кнопка в левом верхнем углу
 4. **Укажите директорию папки SheetUnlocker**
 5. **Включите расширение и выдайте все необходимые права**
-<video src="instruction.mp4" width="320" height="240" controls></video>
+
+
+https://github.com/user-attachments/assets/73705800-ee99-4819-9847-878a5ef59ca7
+
 
 
 ---
