@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Google Sheets HTML Copy Enabler",
+  "version": "1.1",
+  "description": "Включает копирование на страницах htmlview Google Sheets и открывает их по клику на иконку расширения.",
+  "permissions": [],
+  "host_permissions": [
+    "*://docs.google.com/spreadsheets/*"
+  ],
+  "action": {
+    "default_title": "Открыть копируемую htmlview-версию",
+    "default_icon": "icon128.png"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://docs.google.com/spreadsheets/*/htmlview*"],
+      "js": ["content.js"],
+      "all_frames": true,
+      "run_at": "document_end"
+    }
+  ]
+}
