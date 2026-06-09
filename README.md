@@ -1,4 +1,4 @@
-# 📄 Sheet Unlocker — Документация
+# 📄 Sheet Unlocker
 
 ## 📦 Описание
 
